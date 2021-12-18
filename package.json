@@ -1,0 +1,19 @@
+{
+  "name": "scholarship",
+  "version": "0.0.1",
+  "description": "Documentation for Scholarship",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/scholarship/docs/",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

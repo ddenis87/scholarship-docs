@@ -5,6 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Стипендии',
+  base: '/scholarship-docs/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -83,8 +84,10 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
+  babel: { babelrc: true },
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@babel/plugin-proposal-optional-chaining',
   ]
 }

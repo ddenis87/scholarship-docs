@@ -13,7 +13,7 @@
 #### События
 |Event Name|Description|Parameters|
 |---|---|---|
-|accept|Запись/Иизменения формы|`fieldsValue: {}`|
+|accept|Запись/изменения формы|`fieldsValue: {}`|
 |close|Закрытие формы|-|
 
 ## Форма списка
